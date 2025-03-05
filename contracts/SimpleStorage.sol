@@ -17,7 +17,8 @@ contract SimpleStorage {
     Person[] public listOfPeople;
 
     mapping(string => uint256) public nameToFavoriteNumber;
-
+    
+    // Note the virtual kw here , this makes it overridable, also note the gas which is 10 times more now 
     function store(uint256 _favoriteNumber) public virtual {
         myFavoriteNumber = _favoriteNumber;
     }

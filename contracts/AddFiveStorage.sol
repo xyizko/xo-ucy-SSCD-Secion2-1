@@ -10,6 +10,7 @@ import {SimpleStorage} from "./SimpleStorage.sol";
 
 // This syntax , inherits all the functionality from SimpleStorage.sol
 contract AddFiveStorage is SimpleStorage {
+    // The override kw here now can override the original function in SimpleStorage.sol wiht the virual kw
     function store(uint256 _favoriteNumber) public override {
         myFavoriteNumber = _favoriteNumber + 5;
     }
