@@ -1,4 +1,4 @@
-# Beginner - Solidity Smart Contract Development - Section 1 
+# Beginner - Solidity Smart Contract Development - Section 2
 
 1. This repository is linked to RemixIDE , and the work for the above mentioned course will be in here 
 
