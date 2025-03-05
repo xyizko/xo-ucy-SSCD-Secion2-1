@@ -32,6 +32,7 @@ contract SimpleStorage {
     }
 }
 
+// These are just for illustrating importing contracts
 contract SimpleStorage2 {}
 
 contract SimpleStorage3 {}

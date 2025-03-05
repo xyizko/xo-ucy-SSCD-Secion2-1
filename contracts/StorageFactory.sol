@@ -19,13 +19,13 @@ contract StorageFactory {
         listOfSimpleStorageContracts.push(simpleStorageContractVariable);
     }
 
-    // Storage Factor Store
+    // Storage Factory Store
     function sfStore(
         uint256 _simpleStorageIndex,
         uint256 _simpleStorageNumber
     ) public {
         // Address
-        // ABI
+        // ABI - Application Binary Interface 
         // SimpleStorage(address(simpleStorageArray[_simpleStorageIndex])).store(_simpleStorageNumber);
         listOfSimpleStorageContracts[_simpleStorageIndex].store(
             _simpleStorageNumber
