@@ -1,4 +1,4 @@
-// I'm a comment!
+// This contract is from an the last lesson with addition of some more contracts
 // SPDX-License-Identifier: MIT
 
 pragma solidity 0.8.19;
